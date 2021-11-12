@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: FU_TransFrom_TRS
-  m_Shader: {fileID: 4800000, guid: b5e29000c9902814b9729ff37558d074, type: 3}
-  m_ShaderKeywords: OpenScale
+  m_Name: FU_TransFrom_TRS_Anim
+  m_Shader: {fileID: 4800000, guid: 860be2066bd7a054bb369e6c069aee97, type: 3}
+  m_ShaderKeywords: OnScale
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -67,22 +67,22 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _OnRotate: 0
-    - _OnScale: 0
+    - _OnScale: 1
     - _OnTranslate: 0
-    - _OpenOffset: 0
-    - _OpenRotate: 0
-    - _OpenScale: 1
     - _Parallax: 0.02
-    - _Rotate: 30
-    - _Scale: 1
+    - _Rotate: 0
+    - _Scale: 1.1
+    - _Show: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _TimeShow: 0
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Rotate: {r: 0, g: 0, b: 0, a: 0}
+    - _Scale: {r: 0, g: 0, b: 0, a: 0}
     - _Translate: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
